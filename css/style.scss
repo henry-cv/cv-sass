@@ -1,0 +1,83 @@
+/* Prueba de SASS con la extensión Live SASS Compiler en VsCode */
+$color-fondo1:#E6E6E6;
+$color-fondo2:#C4C4C4;
+$color-titulo1:#005677;
+$color-texto1:#FFFFFF;
+
+body{      
+  font-family: Arial, Helvetica, 'Times New Roman', Times, serif;
+
+  .cabecera{
+    background-color: $color-fondo1;
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 6rem;
+
+    .contenedorImagen{
+      display: flex;    
+      justify-content: center;  
+      
+      img{    
+        height: auto;    
+        margin: 21px auto;
+        width: 100px;    
+      }  
+    }
+  }
+  .titulo-principal, .tituloSeccion{
+    color: $color-titulo1;
+    background-color: $color-fondo2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  main{
+    section{
+      .tituloSeccion{
+        text-align: left;
+      }
+      ul{
+        li{
+          .dato{
+            font-style: italic;
+            font-weight: bold;
+            text-align: justify;
+          }
+        }
+      }
+      article{
+        p{
+          .periodo{
+            font-style: normal;
+            font-weight: bold;
+            text-align: justify;
+          }
+        }
+        .textoIndentado{
+          text-indent: 5rem;
+        }
+      }
+    }
+  }
+  footer{
+    align-items: center;
+    background-color: $color-titulo1;
+    color: $color-texto1;  
+    display: flex;
+    height: 37px;
+    justify-content: center;        
+    margin-top: 6rem;
+    .pie-batman{
+      font-size: 17px;
+      font-weight: 700;                    
+      text-transform: uppercase;        
+    }
+    img{
+      background-color: transparent;
+      height: 20px;
+      margin-left: 1rem;    
+      width: 20px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* Prueba de SASS con la extensión Live SASS Compiler en VsCode */
+body {
+  font-family: Arial, Helvetica, "Times New Roman", Times, serif;
+}
+body .cabecera {
+  background-color: #E6E6E6;
+  background-image: url("../img/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-bottom: 6rem;
+}
+body .cabecera .contenedorImagen {
+  display: flex;
+  justify-content: center;
+}
+body .cabecera .contenedorImagen img {
+  height: auto;
+  margin: 21px auto;
+  width: 100px;
+}
+body .titulo-principal, body .tituloSeccion {
+  color: #005677;
+  background-color: #C4C4C4;
+  text-align: center;
+  text-transform: uppercase;
+}
+body main section .tituloSeccion {
+  text-align: left;
+}
+body main section ul li .dato {
+  font-style: italic;
+  font-weight: bold;
+  text-align: justify;
+}
+body main section article p .periodo {
+  font-style: normal;
+  font-weight: bold;
+  text-align: justify;
+}
+body main section article .textoIndentado {
+  text-indent: 5rem;
+}
+body footer {
+  align-items: center;
+  background-color: #005677;
+  color: #FFFFFF;
+  display: flex;
+  height: 37px;
+  justify-content: center;
+  margin-top: 6rem;
+}
+body footer .pie-batman {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body footer img {
+  background-color: transparent;
+  height: 20px;
+  margin-left: 1rem;
+  width: 20px;
+}/*# sourceMappingURL=style.css.map */

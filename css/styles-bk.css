@@ -1,0 +1,66 @@
+/* 
+Cuando usamos la sentencia @import para usar las fuentes externas fonts
+se obtiene un archivo html más limpio.
+*/
+body{    
+    font-family: Arial, Helvetica, 'Times New Roman', Times, serif;        
+}
+.cabecera{
+    background-color: #E6E6E6;
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 6rem;    
+}
+.contenedorImagen{
+    display: flex;    
+    justify-content: center;    
+}
+.contenedorImagen img{    
+    height: auto;    
+    margin: 21px auto;
+    width: 100px;    
+}
+
+.titulo-principal, .tituloSeccion{
+    color: #005677;
+    background-color: #C4C4C4;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tituloSeccion{
+    text-align: left;
+}
+
+section .dato, .periodo{
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+}
+.periodo{
+    font-style: normal;
+}
+.textoIndentado{
+    text-indent: 5rem;
+}
+footer{
+    align-items: center;
+    background-color: #005677; 
+    color:#FFFFFF;   
+    display: flex;
+    height: 37px;
+    justify-content: center;        
+    margin-top: 6rem;
+}
+footer .pie-batman{
+    font-size: 17px;
+    font-weight: 700;                    
+    text-transform: uppercase;        
+}
+footer img{
+    background-color: transparent;
+    height: 20px;
+    margin-left: 1rem;    
+    width: 20px;
+}
