@@ -34,7 +34,7 @@ body main section ul li .dato {
   font-weight: bold;
   text-align: justify;
 }
-body main section article p .periodo {
+body main section article-p .periodo {
   font-style: normal;
   font-weight: bold;
   text-align: justify;
@@ -56,7 +56,7 @@ body footer .pie-batman {
   font-weight: 700;
   text-transform: uppercase;
 }
-body footer img {
+body footer-img {
   background-color: transparent;
   height: 20px;
   margin-left: 1rem;
